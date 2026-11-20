@@ -1,0 +1,9 @@
+.DS_Store
+.env
+.env.*
+config/*
+!config/sourcing.example.json
+attachments/
+private/
+run-logs/
+candidate-exports/

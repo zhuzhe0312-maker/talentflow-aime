@@ -1,0 +1,41 @@
+{
+  "mode": "plan",
+  "role_key": null,
+  "criteria": {
+    "education_levels": ["本科", "硕士"],
+    "school_groups_any": ["211", "985", "QS世界大学排名前200"],
+    "qs_ranking_edition": null,
+    "graduation_basis": null,
+    "graduation_month_from": "2026-09",
+    "graduation_month_through": "2027-08",
+    "product_manager_internship_required": true
+  },
+  "limits": {
+    "max_queries": 8,
+    "max_pages_per_query": 3,
+    "max_candidates_to_review": 100,
+    "max_retries_per_operation": 1
+  },
+  "aime_tools": {
+    "candidate_search": null,
+    "candidate_detail": null,
+    "bitable_lookup": null,
+    "bitable_write": null
+  },
+  "delivery": {
+    "base_ref": null,
+    "table_ref": null,
+    "candidate_data_access_confirmed": false,
+    "fields": {
+      "candidate_name": "候选人姓名",
+      "education": "院校及专业",
+      "graduation_month": "毕业时间",
+      "internships": "产品实习经历",
+      "match_reasons": "匹配原因",
+      "recommendation": "推荐等级",
+      "follow_up": "待确认问题",
+      "resume_url": "简历链接",
+      "delivery_key": "交付键"
+    }
+  }
+}
